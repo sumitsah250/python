@@ -18,7 +18,3 @@ dict["gender"]="male"
 # print(dict.items())#return all the item of the directory
 print(dict.get("marks"))
 
-
-
-  
-
