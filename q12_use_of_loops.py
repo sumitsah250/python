@@ -17,3 +17,6 @@ print("loop ended")
 
 for i in range(1,10,2):   #the range(x,y,z)  where x is starting index,y is ending index, z is step
     print(i)
+
+for i in range(len(sumitlist)):
+    print(i)
