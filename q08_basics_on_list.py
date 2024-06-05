@@ -12,6 +12,8 @@ marks.pop(1) #delete element at particular index
 print(marks.count(1))
 print(marks)
 sum=0
+
+
 marks2=[2,2]
 for i in range(1,len(marks2)+1):
             if(marks2.count(i)==2):

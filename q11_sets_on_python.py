@@ -31,3 +31,5 @@ print(collection.intersection(collection2))
 
 print(len(collection))
 print(collection)
+
+print(collection.intersection(collection2))
