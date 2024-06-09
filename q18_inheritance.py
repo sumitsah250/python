@@ -20,11 +20,14 @@ class tesla(car):        # for multiple in heritance use both the calss names in
         self.name=name
         super().__init__(type)
         super().start()
+        super().stop()
 
 car1 =tesla("model334","electric")
-car2=tesla("sumit","petrol")
-
 print(car1.name)
 print(car1.type)
-car1.start()
-car2.stop()
+car2=tesla("sumit","petrol")
+print(car2.name)
+print(car2.type)
+
+# car1.start()
+# car2.stop()
