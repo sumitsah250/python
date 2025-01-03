@@ -21,11 +21,12 @@
 # sum=0
 
 
-# marks2=[2,2]
-# for i in range(1,len(marks2)+1):
-#             if(marks2.count(i)==2):
-#                 sum=sum+i
-# print(sum)  
-print(18 | 10)  # this is use for bitwise of operation
+marks2=[2,2]
+sum1=0
+for i in range(0,len(marks2)-1):
+            if(marks2.count(marks2[i])==2):
+                sum1=sum1+1
+print(sum1)  
+# print(18 | 10)  # this is use for bitwise of operation
 
 
